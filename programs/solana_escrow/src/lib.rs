@@ -3,7 +3,7 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{self, CloseAccount, Mint, Token, TokenAccount, TransferChecked};
 
 // Replace this placeholder with the program ID generated for your own deployment.
-declare_id!("Fg6PaFpoGXkYsidMpWxTWqkZ5sF4h5f8v9uXk5fYxQxA");
+declare_id!("EXN6vnn9RhSj9jqMLMX7U3o2rnUbwm4L8dXLFmyVgkBa");
 
 #[program]
 pub mod solana_escrow {
