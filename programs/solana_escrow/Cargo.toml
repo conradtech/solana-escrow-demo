@@ -1,3 +1,4 @@
+
 [package]
 name = "solana_escrow"
 version = "0.1.0"
@@ -16,4 +17,5 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.31.1"
+anchor-lang = "0.30.1"
+anchor-spl = { version = "0.30.1", features = ["associated_token", "token"] }
